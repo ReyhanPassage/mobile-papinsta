@@ -37,6 +37,7 @@ export default class login extends Component {
                       size={24}
                       color='black'
                       style={{paddingRight:10}}
+                      
                     />
                   }
                 >
