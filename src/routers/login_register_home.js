@@ -2,19 +2,19 @@ import {createStackNavigator} from 'react-navigation-stack'
 import {createAppContainer} from 'react-navigation'
 import LoginPage from './../screens/login'
 import RegisterPAge from './../screens/register'
-import HomePage from './../screens/home'
+import HomeTab from './../routers/home_explore_profile_post'
 
 const mainStack= createAppContainer( createStackNavigator(
    
     {
        login : LoginPage,
        register : RegisterPAge,
-       home : HomePage
+       home : HomeTab
      
 
    },
    {
-       initialRouteName: 'login',
+       initialRouteName: 'register',
        headerMode: 'none'
    }
     
